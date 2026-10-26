@@ -1,0 +1,53 @@
+.logo{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.logo:hover{
+    color: orange;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url('../../public/img-sfondo.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    margin-top: 0px !important;
+    z-index: 2;
+    width: 100%;
+}
+
+.text{
+    color: orangered;
+    font-weight: 700;
+}
+.benvenuto{
+    margin-top: 70px;
+}
+.riferimenti{
+    bottom: 0px;
+    margin-bottom: 0px !important;
+    z-index: 2;
+    width: 100%;
+    position: sticky;
+}
+button{
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: yellow;
+    color: orangered;
+}
