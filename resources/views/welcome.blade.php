@@ -20,6 +20,11 @@
                 <p class="mt-3 text fs-5">E tanto altro ancora... Ti daremo tutta l'assistenza di cui hai bisogno</p>
             </div>
         </div>
+        @if(session()->has('insertSuccess'))
+        <div class="alert alert-success">
+            {{session('insertSuccess')}}
+        </div>
+        @endif
     </div>
 
 </x-layout>
